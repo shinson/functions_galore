@@ -5,7 +5,7 @@ def make_list(file):
 	return list_emails
 
 def find_duplicates(events, happy_hour):
-"""Appends each email that is in both lists into a new list""
+"""Appends each email that is in both lists into a new list"""
 	double = []
 	for emails in events:
 		if emails in happy_hour:
