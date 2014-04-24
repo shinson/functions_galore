@@ -1,4 +1,5 @@
 def nested_list(csv_file):
+"""Separate csv by new line then seperate each item in the list using the while loup so that each line becomes a list within a list"""
 	final_list = []
 	with open(csv_file, "r") as list_file:
 		list_file = list_file.read().split("\n")
